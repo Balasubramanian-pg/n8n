@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strategic Finance Application</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      color: #333333;
+    }
+    .email-container {
+      max-width: 650px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border: 1px solid #e1e1e1;
+      padding: 30px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 0 0 1.2em 0;
+    }
+    ul {
+      font-size: 16px;
+      margin: 0 0 1.2em 20px;
+    }
+    a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .signature {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #e1e1e1;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .signature p {
+      margin: 0 0 5px 0;
+    }
+    .name {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .resume-link {
+      display: inline-block;
+      margin: 15px 0;
+      padding: 10px 20px;
+      background-color: #0056b3;
+      color: #ffffff !important;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    .resume-link:hover {
+      background-color: #004494;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <p>Dear {{ recipient_name }},</p>
+    <p>
+      I am writing to express my interest in the Strategic Finance / Financial Consultant role at {{ company_name }}.
+    </p>
+    <p>
+      I am a <strong>Chartered Accountant with 6 years of experience (including articleship)</strong>, working across <strong>agrotech, real estate, PEB, consumer, and trading sectors</strong>, partnering with founders to deliver strategic finance outcomes. My experience includes:
+    </p>
+    <ul>
+      <li><strong>Valuation projects</strong> and defending due diligence assumptions (₹5 Cr uplift achieved)</li>
+      <li><strong>FP&amp;A and AOP planning</strong>, including multi-year forecasts and growth targets</li>
+      <li><strong>Sales reviews and margin improvement initiatives</strong> to strengthen profitability</li>
+      <li>Acting as a <strong>fractional CFO</strong>, including setting up and managing a pricing committee</li>
+      <li><strong>Cap table structuring and investor deal support</strong> during fundraises</li>
+      <li><strong>Turnaround advisory</strong> through working capital solutions, KPI discipline, and org structuring</li>
+    </ul>
+    <p>
+      Currently, as <strong>Client Engagement Manager (CFO Advisory)</strong>, I operate as a strategic finance partner to promoters, blending execution detail with investor-focused insight.
+    </p>
+    <p>
+      Please find my resume here:
+    </p>
+    <a href="https://drive.google.com/file/d/1JnefPFA9F0GQMjkpWYz30xPPXomnG5j3/view" class="resume-link" target="_blank">View Resume</a>
+    <p>
+      I would welcome the opportunity to discuss how I can contribute to {{ company_name }}.
+    </p>
+    <p>Best regards,</p>
+    <div class="signature">
+      <p class="name">Jayant Darira</p>
+      <p>Chartered Accountant</p>
+      <p>Bangalore, India</p>
+      <p><a href="mailto:jayudarira@gmail.com">jayudarira@gmail.com</a> | +91 8861837085</p>
+      <p><a href="https://www.linkedin.com/in/jayant-darira-234114154">LinkedIn Profile</a></p>
+    </div>
+  </div>
+</body>
+</html>
